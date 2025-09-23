@@ -25,6 +25,7 @@ import CarbonCalculator from '@/components/carbon-calculator';
 import DestinationRecommender from '@/components/destination-recommender';
 import AppHeader from '@/components/app-header';
 import AppFooter from '@/components/app-footer';
+import ClientOnly from '@/components/client-only';
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-banner');
@@ -245,8 +246,12 @@ export default function Home() {
 
         <section id="calculator" className="py-16 md:py-24 bg-accent text-accent-foreground">
           <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <CarbonCalculator />
-            <DestinationRecommender />
+            <ClientOnly>
+              <CarbonCalculator />
+            </ClientOnly>
+            <ClientOnly>
+              <DestinationRecommender />
+            </ClientOnly>
           </div>
         </section>
       </main>

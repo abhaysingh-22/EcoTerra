@@ -1,3 +1,4 @@
+import ClientOnly from './client-only';
 import FeedbackForm from './feedback-form';
 
 export default function AppFooter() {
@@ -11,7 +12,9 @@ export default function AppFooter() {
             hear from you!
           </p>
         </div>
-        <FeedbackForm />
+        <ClientOnly>
+          <FeedbackForm />
+        </ClientOnly>
       </div>
       <div className="container mx-auto px-4 mt-12 text-center text-accent-foreground/60">
         <p>&copy; {new Date().getFullYear()} EcoTerra Journeys. All Rights Reserved.</p>
