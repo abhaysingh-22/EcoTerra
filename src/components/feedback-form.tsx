@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect, useRef } from 'react';
+import { useFormStatus } from 'react-dom';
+import { useActionState, useEffect, useRef } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { submitFeedback, type FeedbackState } from '@/lib/actions';
 import { Input } from '@/components/ui/input';
@@ -23,7 +23,7 @@ function SubmitButton() {
 
 export default function FeedbackForm() {
   const initialState: FeedbackState = { message: null, errors: {}, success: false };
-  const [state, dispatch] = useFormState(submitFeedback, initialState);
+  const [state, dispatch] = useActionState(submitFeedback, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
