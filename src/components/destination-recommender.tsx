@@ -27,7 +27,7 @@ import {
   RecommendEcoFriendlyDestinationsOutput,
   recommendEcoFriendlyDestinations,
 } from '@/ai/flows/recommend-eco-friendly-destinations';
-import { seasonOptions, travelModes, weatherOptions } from '@/lib/constants';
+import { seasonOptions, travelModes, weatherOptions, type TravelMode } from '@/lib/constants';
 import { Loader2, Sparkles, Sprout } from 'lucide-react';
 
 const formSchema = z.object({
