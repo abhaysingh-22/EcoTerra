@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
+import { AuthProvider } from '@/contexts/AuthContext';
+import { ErrorBoundary } from '@/components/error-boundary';
 
 export const metadata: Metadata = {
   title: 'EcoTerra Journeys',
@@ -24,8 +26,12 @@ export default function RootLayout({
         />
       </head>
       <body className={cn('font-body antialiased')}>
-        {children}
-        <Toaster />
+        <ErrorBoundary>
+          <AuthProvider>
+            {children}
+            <Toaster />
+          </AuthProvider>
+        </ErrorBoundary>
       </body>
     </html>
   );
