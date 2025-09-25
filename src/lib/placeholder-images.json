@@ -3,49 +3,49 @@
     {
       "id": "hero-banner",
       "description": "A lush green valley with a river flowing through it, representing pristine nature.",
-      "imageUrl": "https://images.unsplash.com/photo-1692782040975-96fe03291fa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYW5kc2NhcGUlMjBuYXR1cmV8ZW58MHx8fHwxNzU4NjEyODI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&q=80",
       "imageHint": "landscape nature"
     },
     {
       "id": "himalayas",
       "description": "Snow-capped peaks of the Himalayas with some visible melting.",
-      "imageUrl": "https://images.unsplash.com/photo-1512273222628-4daea6e55abb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbnMlMjBzbm93fGVufDB8fHx8MTc1ODYyODgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1464822759844-d150baec0232?w=1080&q=80",
       "imageHint": "mountains snow"
     },
     {
       "id": "maldives",
       "description": "An aerial view of a small island in the Maldives surrounded by turquoise water.",
-      "imageUrl": "https://images.unsplash.com/photo-1585130401366-fe05a8d813c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFjaCUyMG9jZWFufGVufDB8fHx8MTc1ODU4NzkwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1080&q=80",
       "imageHint": "beach ocean"
     },
     {
       "id": "europe-heatwave",
       "description": "A cracked, dry riverbed in Europe during a summer heatwave.",
-      "imageUrl": "https://images.unsplash.com/photo-1647707024031-76525504fec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZHJ5JTIwcml2ZXJ8ZW58MHx8fHwxNzU4NjUzOTQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=1080&q=80",
       "imageHint": "dry river"
     },
     {
       "id": "costa-rica",
       "description": "A dense rainforest in Costa Rica with hanging bridges.",
-      "imageUrl": "https://images.unsplash.com/photo-1710028267906-945fee272d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWluZm9yZXN0JTIwanVuZ2xlfGVufDB8fHx8MTc1ODU5ODA4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&q=80",
       "imageHint": "rainforest jungle"
     },
     {
       "id": "slovenia",
       "description": "The picturesque Lake Bled in Slovenia with its island church.",
-      "imageUrl": "https://images.unsplash.com/photo-1596227343478-27c5974d25cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYWtlJTIwY2FzdGxlfGVufDB8fHx8MTc1ODY1Mzk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1080&q=80",
       "imageHint": "lake castle"
     },
     {
       "id": "palau",
       "description": "The stunning Rock Islands of Palau, a UNESCO World Heritage site.",
-      "imageUrl": "https://images.unsplash.com/photo-1721457616017-f749557180cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpc2xhbmRzJTIwb2NlYW58ZW58MHx8fHwxNzU4NjUzOTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1080&q=80",
       "imageHint": "islands ocean"
     },
     {
       "id": "norway",
       "description": "A breathtaking view of a Norwegian fjord with steep cliffs.",
-      "imageUrl": "https://images.unsplash.com/photo-1542317319-773c5c168136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmam9yZCUyMGNsaWZmc3xlbnwwfHx8fDE3NTg2NTM5NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1080&q=80",
       "imageHint": "fjord cliffs"
     }
   ]
